@@ -75,7 +75,6 @@ GEM
     ffi (1.11.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    gmaps4rails (2.1.2)
     httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -95,7 +94,7 @@ GEM
       less (~> 2.6.0)
       sprockets (> 2, < 4)
       tilt
-    libv8 (3.16.14.19-x86_64-linux)
+    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -118,7 +117,8 @@ GEM
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (4.3.8)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -219,7 +219,6 @@ DEPENDENCIES
   colorize
   daemons
   delayed_job_active_record
-  gmaps4rails
   httparty (~> 0.13.7)
   jbuilder (~> 2.5)
   jquery-rails
@@ -229,7 +228,7 @@ DEPENDENCIES
   net-ssh (~> 5.2.0)
   nokogiri (~> 1.6, >= 1.6.8)
   pg (>= 0.18, < 2.0)
-  puma (~> 3.7)
+  puma (~> 4.3)
   rails (~> 5.1.5)
   roo (~> 2.8.2)
   sass-rails (~> 5.0)
